@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>My Portfolio</h1>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <img src="mypic.jpg" alt="Your Image" class="profile-image"> 
+            <div class="hero-info">
+                <h1>Hello, I'm Priti Limble</h1>
+                <p>Welcome to my personal portfolio. Here you can find my projects, skills, and contact information.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Priti Limble, a web developer with a passion for creating interactive and user-friendly websites. I have experience in HTML, CSS, JavaScript, and various web development frameworks. I love learning new technologies and continuously improving my skills.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Git</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-list">
+            <div class="project">
+                <img src="pr1.webp" alt="Project 1">
+                <h3>Real Estate</h3>
+                <p>
+                    This real estate project, built with HTML, CSS, JavaScript, and a backend database, allows users to list properties for sale and search for properties to buy. Users can add property details through a form and use filters to find properties. The backend manages data storage, retrieval, and user authentication for secure property management.            </div>
+            <div class="project">
+                <img src="food.jpg" alt="Project 2">
+                <h3>Food Website</h3>
+                <p>This is a user-friendly interface for searching and displaying recipes, powered by the Edamam API. The site features an interactive map where users can click on locations to discover regional dishes. Developed with HTML and CSS for a responsive front-end and PHP for backend integration, this project showcases my skills in building engaging, interactive web applications and utilizing external APIs to enhance user experience.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume <a href="Priti Resume.pdf" download>here</a>.</p> 
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>

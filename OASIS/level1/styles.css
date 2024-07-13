@@ -1,0 +1,250 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('book.jpg'); /* Update with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: floralwhite;
+
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    background-color: #FF5722;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+/* Featured Books Section */
+#featured-books {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#featured-books h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.book {
+    max-width: 200px;
+    text-align: center;
+}
+
+.book img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.book h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: darkslategrey;
+}
+
+.book p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Categories Section */
+#categories {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#categories h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.category-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.category-list li {
+    margin-right: 1rem;
+}
+
+.category-list li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: hwb(0 87% 0%);
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.testimonials-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    max-width: 300px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* About Section */
+#about {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #d6e7f3;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Contact Section */
+#contact {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #FF5722;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}

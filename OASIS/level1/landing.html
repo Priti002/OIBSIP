@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#featured-books">Featured Books</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Bookstore</h1>
+            <p>Discover your next great read.</p>
+            <a href="#featured-books" class="btn">Browse Books</a>
+        </div>
+    </section>
+
+    <section id="featured-books">
+        <h2>Featured Books</h2>
+        <div class="book-list">
+            <div class="book">
+                <img src="f1book.webp" alt="Book 1">
+                <h3>WHAT A FOOL BELIEVES</h3>
+                <p>Author: Michael McDonald</p>
+                <p>Price: $25.60</p>
+            </div>
+            <div class="book">
+                <img src="f2book.webp" alt="Book 2">
+                <h3>YOU NEVER KNOW</h3>
+                <p>Author: TOM SELLECK</p>
+                <p>Price: $23.14</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="categories">
+        <h2>Categories</h2>
+        <ul class="category-list">
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">Non-Fiction</a></li>
+            <li><a href="#">Science Fiction</a></li>
+            <li><a href="#">Fantasy</a></li>
+            
+        </ul>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-list">
+            <div class="testimonial">
+                <p>"This bookstore has a fantastic selection and great service!"</p>
+                <p>- Jane Doe</p>
+            </div>
+            <div class="testimonial">
+                <p>"I found my favorite book here and the staff were very helpful."</p>
+                <p>- John Smith</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a passionate bookstore committed to bringing you the best books across all genres. Our mission is to foster a love for reading and provide a space where book lovers can discover new and exciting titles.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Bookstore Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
